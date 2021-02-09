@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" data-provider-thread-count="1">
+    <listeners>
+        <listener class-name="com.web.listeners.AnnotationTransformer"/>
+        <listener class-name="com.web.listeners.MethodInterceptor"/>
+        <listener class-name="com.web.listeners.ListenerClass"/>
+        </listeners>
+    <test verbose="2"
+          name="Login Tests" thread-count="1" parallel="methods">
+        <classes>
+        <class name="com.web.tests.HomePageTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="25679" started-at="2021-02-02T17:48:59 GMT" finished-at="2021-02-02T17:49:25 GMT">
+    <groups>
+    </groups>
+    <test name="Login Tests" duration-ms="25679" started-at="2021-02-02T17:48:59 GMT" finished-at="2021-02-02T17:49:25 GMT">
+      <class name="com.web.tests.HomePageTests">
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.web.tests.HomePageTests@d83da2e]" name="setUp" is-config="true" duration-ms="8502" started-at="2021-02-02T17:49:01 GMT" finished-at="2021-02-02T17:49:09 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@41917c8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchFromMyShop(java.util.Map)[pri:0, instance:com.web.tests.HomePageTests@d83da2e]" name="searchFromMyShop" duration-ms="2905" started-at="2021-02-02T17:49:09 GMT" description="Search with text" finished-at="2021-02-02T17:49:12 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchkey=Automation, testname=searchFromMyShop, execute=yes, browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromMyShop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.web.tests.HomePageTests@d83da2e]" name="tearDown" is-config="true" duration-ms="132" started-at="2021-02-02T17:49:12 GMT" finished-at="2021-02-02T17:49:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.web.tests.HomePageTests@d83da2e]" name="setUp" is-config="true" duration-ms="7305" started-at="2021-02-02T17:49:12 GMT" finished-at="2021-02-02T17:49:20 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@36545ddb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchFromMyShop(java.util.Map)[pri:0, instance:com.web.tests.HomePageTests@d83da2e]" name="searchFromMyShop" duration-ms="4330" started-at="2021-02-02T17:49:20 GMT" description="Search with text" finished-at="2021-02-02T17:49:24 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchkey=Automationyy, testname=searchFromMyShop, execute=yes, browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromMyShop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.web.tests.HomePageTests@d83da2e]" name="tearDown" is-config="true" duration-ms="920" started-at="2021-02-02T17:49:24 GMT" finished-at="2021-02-02T17:49:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.web.tests.HomePageTests -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
